@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  *
  */
 
-public class finexra {
+public class MaizeSolver {
 	
 	public static enum suffix{
 		first(1), second(2),third(3), fourth(4) ,
