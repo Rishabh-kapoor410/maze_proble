@@ -1,0 +1,201 @@
+Please input the maze with o and x characters where x is path we cannot move. Example:
+Enter first row element and first column element
+o
+------------------
+Enter first row element and second column element
+x
+------------------
+Enter first row element and third column element
+o
+------------------
+Enter second row element and first column element
+o
+------------------
+Enter second row element and second column element
+x
+------------------
+Enter second row element and third column element
+o
+------------------
+Enter third row element and first column element
+o
+------------------
+Enter third row element and second column element
+o
+------------------
+Enter third row element and third column element
+o
+------------------
+ o  x  o 
+ o  x  o 
+ o  o  o 
+------------------
+Please enter the source S co-ordinate
+1 1
+Enter the destination Z  co-ordinate
+3 3
+Please start...
+Enter number of rows in maze
+7
+Enter number of columnns in maze
+7
+Enter first row element and first column element
+o
+------------------
+Enter first row element and second column element
+x
+------------------
+Enter first row element and third column element
+o
+------------------
+Enter first row element and fourth column element
+o
+------------------
+Enter first row element and fifth column element
+o
+------------------
+Enter first row element and sixth column element
+o
+------------------
+Enter first row element and seventh column element
+o
+------------------
+Enter second row element and first column element
+o
+------------------
+Enter second row element and second column element
+x
+------------------
+Enter second row element and third column element
+o
+------------------
+Enter second row element and fourth column element
+o
+------------------
+Enter second row element and fifth column element
+o
+------------------
+Enter second row element and sixth column element
+o
+------------------
+Enter second row element and seventh column element
+o
+------------------
+Enter third row element and first column element
+o
+------------------
+Enter third row element and second column element
+o
+------------------
+Enter third row element and third column element
+x
+------------------
+Enter third row element and fourth column element
+o
+------------------
+Enter third row element and fifth column element
+o
+------------------
+Enter third row element and sixth column element
+o
+------------------
+Enter third row element and seventh column element
+o
+------------------
+Enter fourth row element and first column element
+o
+------------------
+Enter fourth row element and second column element
+x
+------------------
+Enter fourth row element and third column element
+o
+------------------
+Enter fourth row element and fourth column element
+o
+------------------
+Enter fourth row element and fifth column element
+o
+------------------
+Enter fourth row element and sixth column element
+o
+------------------
+Enter fourth row element and seventh column element
+o
+------------------
+Enter fifth row element and first column element
+o
+------------------
+Enter fifth row element and second column element
+x
+------------------
+Enter fifth row element and third column element
+o
+------------------
+Enter fifth row element and fourth column element
+x
+------------------
+Enter fifth row element and fifth column element
+o
+------------------
+Enter fifth row element and sixth column element
+x
+------------------
+Enter fifth row element and seventh column element
+o
+------------------
+Enter sixth row element and first column element
+o
+------------------
+Enter sixth row element and second column element
+x
+------------------
+Enter sixth row element and third column element
+o
+------------------
+Enter sixth row element and fourth column element
+x
+------------------
+Enter sixth row element and fifth column element
+o
+------------------
+Enter sixth row element and sixth column element
+x
+------------------
+Enter sixth row element and seventh column element
+o
+------------------
+Enter seventh row element and first column element
+o
+------------------
+Enter seventh row element and second column element
+o
+------------------
+Enter seventh row element and third column element
+o
+------------------
+Enter seventh row element and fourth column element
+x
+------------------
+Enter seventh row element and fifth column element
+o
+------------------
+Enter seventh row element and sixth column element
+x
+------------------
+Enter seventh row element and seventh column element
+o
+------------------
+ o  x  o  o  o  o  o 
+ o  x  o  o  o  o  o 
+ o  o  x  o  o  o  o 
+ o  x  o  o  o  o  o 
+ o  x  o  x  o  x  o 
+ o  x  o  x  o  x  o 
+ o  o  o  x  o  x  o 
+Please enter the source S co-ordinate
+1 1
+Enter the destination Z  co-ordinate
+7 7
+The shortest path from source to destination has length 18
+-----------------End---------------------------
