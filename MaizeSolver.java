@@ -1,5 +1,4 @@
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +11,7 @@ import java.io.InputStreamReader;
  *
  */
 
-public class MaizeSolver {
+public class finexra {
 	
 	public static enum suffix{
 		first(1), second(2),third(3), fourth(4) ,
@@ -56,8 +55,8 @@ public class MaizeSolver {
 			System.out.println("Enter number of columnns in maze");
 			int y = Integer.parseInt(br.readLine().trim());
 	
-			if (x < 1 || x == 1 || y < 1 || y == 1) {
-				System.out.println("Please enter values greater than 1");
+			if (x < 1 ||  y < 1 ) {
+				System.out.println("Please enter values greater than or equal to 1");
 				return;
 			}
 			Character[][] array = new Character[x][y];
@@ -66,12 +65,13 @@ public class MaizeSolver {
 					
 					System.out.println("Enter " + suffix.valueOfLabel(j + 1)  + " row element and " + suffix.valueOfLabel(k + 1) + " column element");
 					String input = br.readLine().trim();
-					if (input.charAt(0) != ' ' && (Character.toLowerCase(input.charAt(0)) != 'o'
-							|| Character.toLowerCase(input.charAt(0)) != 'x')) {
+					if (input.charAt(0) != ' ' && (Character.toLowerCase(input.charAt(0)) == (char)'o'
+							|| Character.toLowerCase(input.charAt(0)) == (char)'x')) {
 						array[j][k] = input.charAt(0);
 						System.out.println("------------------");
 					} else {
 						System.out.println("Please enter the valid character");
+						return;
 					}
 				}
 			}
@@ -269,4 +269,3 @@ static class CustomException extends Exception {
 		}
 	
 	}
-}
